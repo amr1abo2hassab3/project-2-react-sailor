@@ -1,0 +1,173 @@
+.sec_skills {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.header_skills {
+    padding-bottom: 40px;
+}
+
+.div_rating {
+    margin-bottom: 20px;
+}
+
+.rating_skills {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #556270;
+}
+
+.sec_skills h2::after {
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #e6636a;
+    margin: 4px 0 4px 106px;
+}
+
+.all_skills {
+    text-transform: uppercase;
+}
+
+.rating_skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar_skills {
+    width: 100%;
+    height: 10px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.bar_skills_html::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #6b7b8d;
+    animation-name: range-skillshtml;
+    animation-duration: 1s;
+}
+
+@keyframes range-skillshtml {
+    0% {
+        background-color: #6b7b8d;
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.bar_skills_php::before {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 100%;
+    background-color: #6b7b8d;
+    animation-name: range-skillsPhp;
+    animation-duration: 1s;
+}
+
+@keyframes range-skillsPhp {
+    0% {
+        background-color: #6b7b8d;
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.bar_skills_css::before {
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 100%;
+    background-color: #6b7b8d;
+    animation-name: range-skillsCss;
+    animation-duration: 1s;
+}
+
+@keyframes range-skillsCss {
+    0% {
+        background-color: #6b7b8d;
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.bar_skills_cms::before {
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 100%;
+    background-color: #6b7b8d;
+    animation-name: range-skillsCms;
+    animation-duration: 1s;
+}
+
+@keyframes range-skillsCms {
+    0% {
+        background-color: #6b7b8d;
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.bar_skills_java::before {
+    position: absolute;
+    content: '';
+    width: 75%;
+    height: 100%;
+    background-color: #6b7b8d;
+    animation-name: range-skillsJava;
+    animation-duration: 1s;
+}
+
+@keyframes range-skillsJava {
+    0% {
+        background-color: #6b7b8d;
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.bar_skills_photo::before {
+    position: absolute;
+    content: '';
+    width: 55%;
+    height: 100%;
+    background-color: #6b7b8d;
+    animation-name: range-skillsPhoto;
+    animation-duration: 1s;
+}
+
+@keyframes range-skillsPhoto {
+    0% {
+        background-color: #6b7b8d;
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}

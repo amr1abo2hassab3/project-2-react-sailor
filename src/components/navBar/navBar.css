@@ -1,0 +1,130 @@
+.page_top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--red_color);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.page_top i {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.header_nav {
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    color: #556270 !important;
+    font-size: 28px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--header_font);
+}
+
+.navbar-nav li {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0 10px 25px;
+    font-family: var(--navbar_font);
+    text-transform: capitalize;
+}
+
+.dropDown {
+    position: relative;
+}
+
+.dropDown a {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--navbar_font);
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000a6;
+    transition: all 0.3s;
+}
+
+.dropDown a i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.dropDown ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+}
+
+.aboutDrop {
+    left: 14px;
+    top: calc(100% + 30px);
+}
+
+.deepDrop {
+    top: 0;
+    left: -175px;
+}
+
+.dropDown ul li {
+    min-width: 200px;
+}
+
+
+.active {
+    color: var(--red_color) !important;
+}
+
+.btn_main {
+    padding: 8px 25px;
+    background-color: var(--red_color);
+    color: white;
+    border-radius: 4px;
+    border: var(--red_color) solid 1px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.navbar-nav li .btn_main:hover {
+    background-color: #d9232dbf;
+}
+
+.navbar-nav li a:hover {
+    color: var(--red_color) !important;
+    cursor: pointer;
+}
+
+.dropDown:hover .aboutDrop {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+.dropDown2:hover .deepDrop{
+    left: -200px;
+    visibility: visible;
+    opacity: 1;
+}

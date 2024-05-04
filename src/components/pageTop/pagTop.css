@@ -1,0 +1,21 @@
+.page_top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--red_color);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.page_top i {
+    font-size: 20px;
+    color: white;
+}

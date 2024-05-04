@@ -1,0 +1,234 @@
+.blog_sec {
+    padding: 40px 0 20px 0;
+    font-family: var(--paragraph_font);
+}
+
+.img_blog {
+    margin-bottom: 20px;
+    max-height: 440px;
+    overflow: hidden;
+}
+
+.all_blog_sec {
+    margin-bottom: 60px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.text_blog h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color: #556270;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--header_font);
+}
+
+.text_blog h2:hover {
+    color: var(--red_color);
+    cursor: pointer;
+}
+
+.meta_blog ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.meta_blog ul li {
+    margin-right: 15px;
+}
+
+.meta_blog ul li i {
+    font-size: 16px;
+    margin-right: 3px;
+    line-height: 0;
+}
+
+.meta_blog ul li a {
+    color: #777777;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.text_blog p {
+    color: #444444;
+}
+
+.text_blog button:hover {
+    background-color: #d9232dbf;
+}
+
+.blog_123 {
+    padding: 0;
+    list-style: none;
+}
+
+.blog_123 li {
+    padding: 20px;
+    margin: 0 5px;
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog_123 .active_blog {
+    background-color: var(--red_color);
+    color: white;
+}
+
+.blog_123 li:hover {
+    background-color: var(--red_color);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* right section  */
+
+.all_blog_right {
+    padding: 30px;
+    margin: 0 0 60px 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.all_blog_right h2 {
+    color: #556270;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: var(--header_font);
+    font-weight: bold;
+}
+
+.all_blog_right form {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.all_blog_right form input {
+    border: 0;
+    padding: 4px;
+    border-radius: 4px;
+    width: calc(100% - 40px);
+}
+
+.all_blog_right form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: -1px;
+    background: #d9232d;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    line-height: 0;
+}
+
+
+.list_blog_right {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.list_blog_right li {
+    color: #96a2af;
+    font-size: 14px;
+    padding: 6px 14px;
+    transition: 0.3s;
+}
+
+.list_blog_right li span {
+    margin: 0 6px 8px 0;
+    display: inline-block;
+    color: #556270;
+}
+
+.list_blog_right li span:hover {
+    color: var(--red_color);
+    cursor: pointer;
+}
+
+.all_blog_right h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 0 0;
+    margin: 0 0 15px 0;
+    color: #556270;
+}
+
+.Recent_Posts {
+    display: flex;
+    font-family: var(--paragraph_font);
+    margin-bottom: 15px;
+}
+
+.Recent_Posts .img_Recent_Posts img {
+    max-width: 80px;
+}
+
+.text_Recent_Posts {
+    padding-left: 15px;
+}
+
+.text_Recent_Posts h1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #556270;
+    transition: all 0.3s ease-in-out;
+}
+
+.text_Recent_Posts p {
+    font-style: italic;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.text_Recent_Posts h1:hover {
+    color: var(--red_color);
+    cursor: pointer;
+}
+
+.tags_blogs {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--header_font);
+    margin-bottom: 15px;
+}
+
+.button_blog {
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.button_blog li {
+    color: #96a2af;
+    font-size: 14px;
+    padding: 6px 14px;
+    margin: 0 6px 8px 0;
+    border: 1px solid white;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.button_blog li:hover {
+    color: white;
+    background-color: var(--red_color);
+    cursor: pointer;
+}

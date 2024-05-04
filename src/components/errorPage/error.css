@@ -1,0 +1,45 @@
+.secError {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    padding: 70px;
+    background-color: #4a5562;
+    border-radius: 20px;
+    color: white;
+}
+
+.secError h1 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.secError span{
+    color: #d9232d;
+}
+
+.secError p {
+    margin: 20px;
+}
+
+
+.secError button {
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #d9232d;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.secError button:hover{
+    background-color: #782c2f89;
+}
+
+.secError button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

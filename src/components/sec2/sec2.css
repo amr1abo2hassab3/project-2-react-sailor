@@ -1,0 +1,51 @@
+.sec2 {
+    padding: 60px 0;
+    overflow: hidden;
+    color: var(--color_text);
+}
+
+.sec2 .all_text_sec2_left {
+    font-family: var(--header_font);
+}
+
+.sec2 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.sec2 .all_text_sec2_left p {
+    font-size: 24px;
+    margin-bottom: 8px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.sec2 .all_text_sec2_right {
+    font-family: var(--paragraph_font);
+}
+
+.sec2 .all_text_sec2_right ul li {
+    list-style: none;
+    margin: 0;
+    position: relative;
+    padding: 10px 0 0 28px;
+}
+
+.sec2 .all_text_sec2_right ul i {
+    position: absolute;
+    left: 0;
+    color: var(--red_color);
+    font-size: 17px;
+}
+
+.sec2 .all_text_sec2_right .check_right {
+    left: 6px;
+}
+
+.p_botton_sec3 {
+    font-style: italic;
+    font-weight: 500;
+}

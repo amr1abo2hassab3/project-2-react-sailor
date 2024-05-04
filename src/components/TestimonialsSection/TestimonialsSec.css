@@ -1,0 +1,53 @@
+.testimonials {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.all_Testi {
+    box-sizing: content-box;
+    padding: 30px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.person_testi {
+    display: flex;
+    align-items: center;
+}
+
+.img_person {
+    width: 90px;
+    border-radius: 50px;
+    border: 6px solid #fff;
+    float: left;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+.name_person h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+
+.name_person h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+
+.desc_testi i {
+    display: inline-block;
+    color: #f8d1d3;
+    font-size: 26px;
+    margin: 0 10px;
+}
+
+.desc_testi {
+    font-style: italic;
+    margin: 15px 0 0 0;
+    padding: 0;
+}

@@ -1,0 +1,20 @@
+.sec3 {
+    padding: 15px 0;
+    text-align: center;
+    background-color: var(--back-ground);
+}
+
+.sec3 .all_sec3 img {
+    max-width: 90px;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+
+}
+
+.sec3 .all_sec3 img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
